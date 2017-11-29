@@ -2,7 +2,6 @@ package com.dd.qazaqsha.ertegiler;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -12,7 +11,7 @@ import com.google.android.gms.ads.InterstitialAd;
 
 import java.util.List;
 
-public class Main3Activity extends AppCompatActivity {
+public class ActivityFairyTaleText extends AppCompatActivity {
 
 
     ListView listView;

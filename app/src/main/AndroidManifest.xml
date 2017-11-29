@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_aldar_kose"
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".ActivityListCategories">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,11 +17,11 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Main2Activity"
-            android:parentActivityName=".MainActivity" />
+            android:name=".ActivityListFairyTales"
+            android:parentActivityName=".ActivityListCategories" />
         <activity
-            android:name=".Main3Activity"
-            android:parentActivityName=".Main2Activity"/>
+            android:name=".ActivityFairyTaleText"
+            android:parentActivityName=".ActivityListFairyTales"/>
     </application>
 
 </manifest>

@@ -15,7 +15,7 @@ import com.google.android.gms.ads.AdView;
 
 import java.util.List;
 
-public class Main2Activity extends AppCompatActivity {
+public class ActivityListFairyTales extends AppCompatActivity {
 
     ListView listView;
     ArrayAdapter arrayAdapter;
@@ -76,7 +76,7 @@ public class Main2Activity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Intent intent = new Intent(getApplicationContext(), Main3Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ActivityFairyTaleText.class);
                 intent.putExtra("nameOfSelectedCategoryInLatin", nameOfSelectedCategoryInLatin);
                 intent.putExtra("SelectedSkazkiCategoryPosition", selectedSkazkiCategoryPosition);
                 intent.putExtra("SelectedSkazkaPosition", position);

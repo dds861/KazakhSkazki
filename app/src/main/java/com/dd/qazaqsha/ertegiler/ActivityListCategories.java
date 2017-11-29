@@ -14,7 +14,7 @@ import com.google.firebase.analytics.FirebaseAnalytics;
 
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class ActivityListCategories extends AppCompatActivity {
 
     ListView listView;
     ArrayAdapter arrayAdapter;
@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
-                Intent intent = new Intent(getApplicationContext(), Main2Activity.class);
+                Intent intent = new Intent(getApplicationContext(), ActivityListFairyTales.class);
                 intent.putExtra("selectedSkazkiCategoryPosition", position);
                 intent.putExtra("selectedSkazkiCategoryName", stringList.get(position));
 
